@@ -1,0 +1,12 @@
+{
+  "name": "Wine Reseller Homepage",
+  "description": "A responsive homepage for Båstad Vinhandel AB, featuring a hero, features, product showcase, and footer, with Swedish and English translation capabilities. The header is now dark green and the body background is a light mossy green, enhancing the natural wine theme. Navigation menu items now have increased horizontal spacing.",
+  "entry": "index.html",
+  "multiPage": false,
+  "files": [
+    "index.html",
+    "metadata.json"
+  ],
+  "tailwind": { "source": "play-cdn" },
+  "generatedAt": "2024-07-30T12:34:56Z"
+}

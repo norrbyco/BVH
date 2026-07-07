@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background: #F7F6F2;
+  color: #2F352D;
+}
+
+/* NAV */
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(247, 246, 242, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.nav .logo {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #2F352D;
+  font-size: 14px;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  background: linear-gradient(to bottom, #F7F6F2, #E8E2D8);
+}
+
+.hero h1 {
+  font-family: Newsreader, serif;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.hero p {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 24px;
+  background: #8EAA57;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #6E8743;
+}
+
+/* INTRO */
+.intro {
+  padding: 120px 20px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.intro h2 {
+  font-family: Newsreader;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
