@@ -1,3 +1,20 @@
+:root {
+  --green: #8eaa57;
+  --green-dark: #6f8743;
+
+  --cream: #f7f6f2;
+
+  --sand: #ece7dc;
+
+  --text: #303030;
+
+  --white: #ffffff;
+
+  --radius: 14px;
+
+  --transition: 0.35s;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +23,9 @@
 
 body {
   font-family: Inter, sans-serif;
-  background: #F7F6F2;
-  color: #2F352D;
+  background: #f7f6f2;
+  color: #2f352d;
+  max-width: 1200px;
 }
 
 /* NAV */
@@ -31,7 +49,7 @@ body {
 .nav a {
   margin-left: 20px;
   text-decoration: none;
-  color: #2F352D;
+  color: #2f352d;
   font-size: 14px;
 }
 
@@ -43,7 +61,7 @@ body {
   justify-content: center;
   text-align: center;
   padding: 0 20px;
-  background: linear-gradient(to bottom, #F7F6F2, #E8E2D8);
+  background: linear-gradient(to bottom, #f7f6f2, #e8e2d8);
 }
 
 .hero h1 {
@@ -61,7 +79,7 @@ body {
   display: inline-block;
   margin-top: 25px;
   padding: 12px 24px;
-  background: #8EAA57;
+  background: #8eaa57;
   color: white;
   text-decoration: none;
   border-radius: 30px;
@@ -69,7 +87,7 @@ body {
 }
 
 .btn:hover {
-  background: #6E8743;
+  background: #6e8743;
 }
 
 /* INTRO */
